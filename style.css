@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+}
+
+nav{
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background-color: #191353;
+    box-shadow: 0 4px 10px rgba(0,0,0, .3);
+    transition: all .3s;
+}
+
+.logo{
+    font-size:40px;
+    color:white;
+    font-weight: bold;
+    line-height: 80px;
+    padding-left: 100px;
+}
+
+ul{
+    float:right;
+    margin-right:50px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    margin:0 15px;
+    line-height: 80px;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+   transition: opacity .5s;
+}
+
+a:hover{
+    opacity: .8;
+}
+
+.sec1{
+    background: url(resim2.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.sec2{
+    background: url(resim3.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.sec3{
+    background: url(resim5.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.sec4{
+    background: url(resim4.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
